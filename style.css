@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  /* border: 5px solid black; */
+  background-color: #1c090e;
+  /* background: linear-gradient(to right, #1c090e, #4f343c); */
+}
+
+.top-div {
+  position: absolute;
+  /* border: 2px solid red; */
+  top: 7vh;
+  width: 70vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.3vh;
+  align-items: center;
+  background-color: #120609;
+  border-radius: 20px 0px 20px 0px;
+  box-shadow: 0px 0px 7px #fff;
+}
+
+.results-div {
+  position: absolute;
+  /* border: 2px solid red; */
+  width: 90vw;
+  height: 60vh;
+  top: 32vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #120609;
+  border-radius: 3px;
+  font-family: 'Silkscreen', serif;
+  padding: 3vw;
+  box-shadow: 0px 0px 7px #fff;
+}
+
+.top-title {
+  display: flex;
+  justify-content: center;
+  color: #d9d9d9;
+  font-family: 'Silkscreen', serif;
+  font-size: 18px;
+}
+
+.input-box {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #757575;
+  color: #fff;
+  outline: none;
+  font-size: 15px;
+}
+
+.button {
+  width: 16vw;
+  height: 5vh;
+  border-radius: 20px;
+  border: 1px solid #d9d9d9;
+  background-color: transparent;
+  color: #d9d9d9;
+}
+
+.button:hover {
+  border-color: #fff;
+  color: #fff;
+  cursor: pointer;
+}
